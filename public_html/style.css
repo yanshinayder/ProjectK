@@ -20,21 +20,21 @@ header {
 } 
 
 img {
-	width: 400px;
+	width: 390px;
 	opacity: 1;
 	
 	
 }
 
 img:hover {
-	opacity: 1;
+	opacity: 0.5;
 	
 }
 
 form {
 	position: absolute;
 	top: 30px;	
-	right: 450px;
+	right: 320px;
 }	
 form {
 	display: inline;
@@ -53,7 +53,7 @@ form {
 nav {
 	position: absolute; ;
 	top: 210px;	
-	right: 410px;
+	right: 110px;
 	
 }
 
@@ -67,12 +67,16 @@ nav a {
 	text-transform: uppercase;
 	color: black;
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 14px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	font-size: 18px;
+	font-size: 17px;
+}
+
+main{
+	background: #fafae6d0;;
 }
 
 .principal {
@@ -80,7 +84,6 @@ nav a:hover {
     padding: 1em;
     width: 740px;
     margin: 0 auto;
-    background: #fafae6d0;
 
 
 }
@@ -98,14 +101,14 @@ nav a:hover {
 .mesa {
 	text-align: center;
 	width: 60% ;	
-	padding: 0 20px 0 20px;
+	padding: 0 30px 0 30px;
 	float: left;
 
 }
 
 p {
-	font-size: 25px;
-	text-align: center;
+	font-size: 22px;
+	text-align: left;
 
 }
 
@@ -147,18 +150,75 @@ p strong {
  }
 
  .whatsapp {
- 	padding: 40px;
+	width: 2px;
+	height: 2px;
+
+ 	
  }
 
-footer {
-
+.fim {
+	
 	text-align: center;
 	padding: 120px 0;
-	background: #ffff0014;
+	background: #fafae6d0;
+}
+
+.rodape {
+	text-align: center;
+	margin: 30px 0 0 0 ;
+}
+
+.sobrenos{
+	background:#fafae6d0;
+}
+
+.historia {
+	text-align:center;
+	padding: 40px;
+	font-size: 28px;
+	text-indent: 3em;
+	
+}
+
+.diligencia {
+	text-align:center;
+	font-size: 28px;
+	text-indent: 3em;
+	margin: 20px 0 20px 0;
+}
+
+.aguardo {
+	text-align:center;
+	font-size: 28px;
+	text-indent: 3em;
+	margin: 20px 0 20px 0;
+}
+
+.assinatura{
+	text-align:center;
+	font-size: 28px;
+	text-indent: 3em;
+	margin: 40px 0 0 0;
+}
+
+.trabalho{
+	text-align:center;
+	font-size: 28px;
+	text-indent: 2em;
+	margin: 0 0 20px 0;
+}
+
+.motivacao{
+	text-align:right;
+	font-size: 14px;
+	
+}
+
+.autor{
+	text-align:right;
+	font-size: 14px;
+	
 }
  
-
-
-
 
 
