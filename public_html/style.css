@@ -152,7 +152,6 @@ p strong {
  .whatsapp {
 	width: 2px;
 	height: 2px;
-
  	
  }
 
@@ -165,22 +164,25 @@ p strong {
 
 .rodape {
 	text-align: center;
-	margin: 30px 0 0 0 ;
+	margin: 100px 0 0 0 ;
 }
 
 .sobrenos{
+	white-space: normal;
 	background:#fafae6d0;
 }
 
 .historia {
+	
 	text-align:center;
-	padding: 40px;
+	padding: 40px 0 0 0 ;
 	font-size: 28px;
 	text-indent: 3em;
 	
 }
 
 .diligencia {
+	
 	text-align:center;
 	font-size: 28px;
 	text-indent: 3em;
@@ -188,6 +190,7 @@ p strong {
 }
 
 .aguardo {
+	
 	text-align:center;
 	font-size: 28px;
 	text-indent: 3em;
@@ -195,26 +198,32 @@ p strong {
 }
 
 .assinatura{
+
 	text-align:center;
-	font-size: 28px;
+	font-weight: bold;
+	font-size: 20px;
 	text-indent: 3em;
 	margin: 40px 0 0 0;
 }
 
 .trabalho{
+
 	text-align:center;
-	font-size: 28px;
+	font-weight: bold;
+	font-size: 20px;
 	text-indent: 2em;
 	margin: 0 0 20px 0;
 }
 
 .motivacao{
+	margin: 0 10px 0 0;
 	text-align:right;
 	font-size: 14px;
 	
 }
 
 .autor{
+	margin: 0 14px 0 0;
 	text-align:right;
 	font-size: 14px;
 	
