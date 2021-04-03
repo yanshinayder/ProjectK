@@ -1,0 +1,163 @@
+
+header {
+	animation: gradient 20s ease infinite;
+	background: linear-gradient(to right, #f1f1cb, #DED7B5, #490403);
+	background-size: 250% 250%;
+	display: flex;
+	
+}
+
+@keyframes gradient {
+	0%{
+		background-position: 0 50%
+	}
+	50% {
+		background-position: 80% 50%;
+	}
+	100%{
+		background-position: 30% 50%;
+	}
+} 
+
+img {
+	width: 400px;
+	opacity: 1;
+	
+	
+}
+
+img:hover {
+	opacity: 1;
+	
+}
+
+form {
+	position: absolute;
+	top: 30px;	
+	right: 450px;
+}	
+form {
+	display: inline;
+	margin: 0 0 0 30px;
+	
+}
+
+form {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 10px;
+	text-decoration: none;
+}
+
+nav {
+	position: absolute; ;
+	top: 210px;	
+	right: 410px;
+	
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 30px;
+	
+}		
+
+nav a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	font-size: 18px;
+}
+
+.principal {
+
+    padding: 1em;
+    width: 740px;
+    margin: 0 auto;
+
+
+}
+
+.titulo-principal {
+
+	text-align: center;
+	font-size: 2em;
+	margin: 2em 3em 1em;
+	clear: left;
+	padding: 10px 0 10px 0;
+	color: rgb(0,0,0,);
+}
+
+.mesa {
+	text-align: center;
+	width: 60% ;	
+	padding: 0 20px 0 20px;
+	float: left;
+
+}
+
+p {
+	font-size: 25px;
+	text-align: center;
+
+}
+
+p strong {
+	font-weight: bold;
+	color: #490403;
+}
+
+.mais {
+
+ 	text-decoration: none;
+    background-color: #CEC492 ;
+    color: #490403;
+    font-weight: bold;
+    display: inline-block;
+	text-align: center;
+	width: 12%;
+	vertical-align: top;	
+	margin: 40px 1.5% 0 90px ;
+	padding: 40px 30px;
+	box-sizing: border-box;
+	border-color: #490403;
+	border-width: 2px;
+	border-style:solid;
+	border-top-width: 6px;
+	border-radius: 6px;
+    padding: 4px 8px 0 8px;
+    
+ } 
+
+ .mais:hover {
+ 	border-color: black;
+	border-width: 4px;
+	border-style:solid;
+	border-top-width: 6px;
+	border-radius: 6px;
+    padding: 3px 5px;
+
+ }
+
+ .whatsapp {
+ 	padding: 40px;
+ }
+
+footer {
+
+	text-align: center;
+	padding: 120px 0;
+	background: #ffff0014;
+}
+ 
+
+
+
+
+
