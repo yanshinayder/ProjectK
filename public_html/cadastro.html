@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Cadastre-se</title>
+
+            
+                    <link rel="stylesheet" href="reset.css">
+                    <link rel="stylesheet" href="style.css">
+        </head>
+    <body>
+
+        <header>
+            <div class="fundo">
+                <h1><img src="logo.png"></h1>
+
+                <form>
+                    <label for="email">email</label>
+                    <input type="text" id="email" class="input-padrão" required placeholder="seuemail@dominio.com">
+
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="password" minlength="8" required>
+
+                    <input type="submit" value="Entrar" class="entrar">
+
+                </form>	
+            </div>
+           
+            
+        </header>
+
+         <div class="inicio">
+                 
+                 <nav>
+                     <ul>
+                         <li><a href="index.html">Página inicial</a></li>
+                         <li><a href="sobre.html">Sobre Nós</a></li>
+                         <li><a href="servico.html">Serviços</a></li> 						 					
+                         <li><a href="cadastro.html">Fale Conosco</a></li>
+                         <li><a href="contato.html">Cadastro(Em Breve)</a></li>
+                     </ul>
+                 </nav>		
+         </div>	
+
+        <main>
+             <div>
+                <form class="contato">
+                    <label for="nomesobrenome">Nome e Sobrenome</label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+                    <label for="Email">Email</label>
+                    <input type="text" id="Email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                    <label for="Telefone">Telefone</label>
+                    <input type="text" id="Telefone" class="input-padrao" required placeholder="(XX) (XXXXX-XXXX)">
+
+                    <label for="mensagem">Mensagem</label>
+                    <textarea cols="60" rows="10" id="Mensagem" class="input-padrao" required> </textarea>
+                 
+                      
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <label class="input-group-text" for="inputGroupSelect01">Qual melhor método para falar com você?</label>
+                            </div>
+                            <select class="custom-select" id="inputGroupSelect01">
+                              <option selected>Escolher...</option>
+                              <option value="1">Whatsapp</option>
+                              <option value="2">Telefone</option>
+                              <option value="3">Email</option>
+                            </select>
+                          </div>
+                       
+                    <input type="submit" value="Enviar" class="enviar">
+                </form>
+              </div>  
+        </main>    
+            
+
+
+
+   
+
+     
+   
+</html>
